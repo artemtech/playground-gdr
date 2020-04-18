@@ -1,0 +1,18 @@
+install:
+  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.68.3/hugo_extended_0.68.3_Linux-64bit.deb
+  - sudo dpkg -i /tmp/hugo.deb
+
+script:
+  - hugo --gc --baseURL https://isikandomainanda.com
+
+# Deploy to GitHub pages
+deploy:
+  provider: pages
+  fqdn: isikandomainanda.com
+  skip_cleanup: true
+  keep_history: true
+  github_token: $GITHUB_TOKEN
+  target_branch: master
+  local_dir: public
+  on:
+    branch: source
