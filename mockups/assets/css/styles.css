@@ -1,0 +1,78 @@
+.image-dana {
+  width: unset !important;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.penggunaan-dana {
+  background: #eff5fe;
+  padding: 50px 0px;
+  margin-top: 50px;
+}
+
+.penggunaan-dana .title, .blog-section .title, .saran-section .title, .mitra-section .title {
+  text-align: center;
+}
+
+.penggunaan-dana .title::after, .blog-section .title::after, .saran-section .title::after, .mitra-section .title::after {
+  content: "";
+  text-align: center;
+  border: 5px solid #ffbd5c;
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+.penggunaan-dana .all-dana .card {
+  background: transparent;
+  border: none;
+}
+
+.blog-section .single-post {
+  color: unset;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.blog-section .btn-more {
+  border: none;
+  background: transparent;
+  color: #333;
+  border-bottom: 5px solid #ffbd5c;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.blog-section .btn-more:hover {
+  background: #ffbd5c;
+  color: white;
+}
+
+.saran-section {
+  background: #effeff;
+}
+
+.footer-gdr {
+  background: #316166;
+  color: white;
+  padding: 20px 0px;
+}
+
+.footer-gdr .item.social a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+
+.footer-gdr .item.social a img {
+  margin-right: 10px;
+}
+
+footer-gdr .copyright {
+  margin: 0;
+}
+
